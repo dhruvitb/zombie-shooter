@@ -448,7 +448,7 @@ while running:
             click = True
     mx,my = mouse.get_pos()
     mb = mouse.get_pressed()
-    edgepan = True
+    edgepan = False
     keys = key.get_pressed()
     if main_menu:
         screen.blit(controls,(0,0))
